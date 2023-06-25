@@ -1,0 +1,35 @@
+$color: #0b1e69;
+$text-shadow: #011921;
+$bg-color: #ffffff;
+
+.getting-started {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+
+  margin: 0;
+  padding: 0;
+  font-size: 10rem;
+
+  background-color: $bg-color;
+  color: $color;
+  text-shadow: 0 2px 0.5rem $text-shadow;
+
+
+  animation: starting 2s linear;
+}
+
+
+@keyframes starting {
+  0% {
+    color: transparent;
+    text-shadow: 0 2px 0 transparent;
+  }
+  100% {
+    color: $color;
+    text-shadow: 0 2px 0.5rem $text-shadow;
+  }
+}
