@@ -19,17 +19,17 @@ $bg-color: #ffffff;
   text-shadow: 0 2px 0.5rem $text-shadow;
 
 
-  animation: starting 2s linear;
+  //animation: starting 2s linear;
 }
 
 
-@keyframes starting {
-  0% {
-    color: transparent;
-    text-shadow: 0 2px 0 transparent;
-  }
-  100% {
-    color: $color;
-    text-shadow: 0 2px 0.5rem $text-shadow;
-  }
-}
+//@keyframes starting {
+//  0% {
+//    color: transparent;
+//    text-shadow: 0 2px 0 transparent;
+//  }
+//  100% {
+//    color: $color;
+//    text-shadow: 0 2px 0.5rem $text-shadow;
+//  }
+//}
