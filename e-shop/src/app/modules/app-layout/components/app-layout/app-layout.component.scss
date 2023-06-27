@@ -1,0 +1,23 @@
+$headerHeight: 5rem;
+$footerHeight: 5rem;
+
+.app-layout {
+  display: grid;
+
+  grid-template-areas: 'header' 'main-content' 'footer';
+  grid-auto-rows: $headerHeight calc(100vh - $headerHeight - $footerHeight) $footerHeight;
+}
+
+header {
+  grid-area: header;
+}
+
+main {
+  grid-area: main-content;
+}
+
+footer {
+  grid-area: footer;
+}
+
+
