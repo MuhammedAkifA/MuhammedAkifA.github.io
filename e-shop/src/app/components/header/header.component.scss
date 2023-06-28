@@ -1,20 +1,36 @@
-ul{
+ul {
   display: flex;
   flex-direction: row;
-  justify-content: end;
+  justify-content: flex-end;
 
-  gap: 3rem;
-  padding: 1rem  2rem;
+  gap: 1rem;
+  padding: 1rem 2rem;
 }
 
-li{
+li {
   list-style-type: none;
 }
 
-a{
+a {
   text-decoration: none;
   text-transform: uppercase;
   letter-spacing: 0.1rem;
   font-weight: lighter;
   font-size: 1.3rem;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  color: #333333;
+  justify-content: flex-start;
+
+  &:hover{
+    color: #29555b;
+  }
+}
+
+
+nav {
+  box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.25);
+  border-top-left-radius: 15rem;
+  border-bottom-left-radius: 15rem;
 }

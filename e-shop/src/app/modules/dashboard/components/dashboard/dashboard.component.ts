@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import {Template, TemplateRefModel} from "@app/library/types/directive/template";
 
 @Component({
   selector: 'app-dashboard',
@@ -6,5 +7,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./dashboard.component.scss']
 })
 export class DashboardComponent {
-
+  HEADER_SELECTOR: Template = TemplateRefModel.HEADER
 }

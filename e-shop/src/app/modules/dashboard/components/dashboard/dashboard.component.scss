@@ -10,3 +10,17 @@ h1{
   margin: 0;
   letter-spacing: 0.5rem;
 }
+
+
+
+section{
+  margin-top: 8rem;
+  margin-left: 6rem;
+  margin-right: 6rem;
+  justify-content: center;
+
+  display: flex;
+  flex-flow: row wrap;
+  height: 100%;
+  gap: 3rem;
+}
